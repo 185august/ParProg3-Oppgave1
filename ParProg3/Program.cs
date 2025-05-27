@@ -28,12 +28,8 @@ void Main()
                 if (input == 'y')
                 {
                     MakeChatBot();
-                    Main();
                 }
-                else
-                {
-                    Main();
-                }
+                Main();
             }
             Console.Clear();
             Console.WriteLine($"You have selected {currentChatbot.Name}");
